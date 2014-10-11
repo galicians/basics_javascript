@@ -261,3 +261,54 @@ NaN (short for "Not a Number")
   JavaScript has while loops and do-while loops. 
   for (var i = 0; i < 5; i++) {
 
+&& and || operators use short-circuit logic,
+This is useful for checking for null objects before accessing their attributes:
+
+var name = o && o.getName();
+Or for setting default values:
+var name = otherName || "default";
+JavaScript has a ternary operator for conditional expressions:
+var allowed = (age > 18) ? "yes" : "no";
+
+
+JavaScript objects can be thought of as simple collections of name-value pairs, as hashes in ruby
+The "name" part is a JavaScript string, while the value can be any JavaScript value — including more objects. 
+
+terminal node --> console.log
+process.exit() --> out of node  or .exit
+console.log(process.versions);
+node commands TERMINAL --> http://nodejs.org/api/process.html#process_process_exit_code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
